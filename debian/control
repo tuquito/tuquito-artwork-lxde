@@ -1,0 +1,14 @@
+Source: tuquito-artwork-lxde
+Section: x11
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 7), intltool
+Standards-Version: 3.8.3
+
+Package: tuquito-artwork-lxde
+Architecture: all
+Description: Artwork for Tuquito LXDE edition
+ Artwork for Tuquito LXDE edition, contained the wallpaper and others specific images and
+ logos.
+ * Tuquito Team! - 2010
+
