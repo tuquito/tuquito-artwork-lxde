@@ -7,6 +7,7 @@ Standards-Version: 3.8.3
 
 Package: tuquito-artwork-lxde
 Architecture: all
+Depends: gnome-brave-icon-theme, dmz-cursor-theme
 Description: Artwork for Tuquito LXDE edition
  Artwork for Tuquito LXDE edition, contained the wallpaper and others specific images and
  logos.
