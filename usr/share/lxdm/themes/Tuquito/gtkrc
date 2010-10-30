@@ -1,35 +1,19 @@
-style "back"
-{
-	engine "pixmap"
-	{
-		image
-		{
-			function = FLAT_BOX
-			shadow=NONE
-			state = NORMAL
-			file="wall.jpg"
-			stretch=TRUE
-			detail = "base"
-		}
-	}
-}
-
 style "time"
 {
 	fg[NORMAL]="#ffffff"
-	font_name="Sans 12"
+	font_name="Ubuntu 12"
 }
 
 style "prompt"
 {
 	fg[NORMAL]="#ffffff"
-	font_name="Sans Bold 14"
+	font_name="Ubuntu Bold 15"
 }
 
 # Normally this won't paint an invisible event box, but we did some hacks in greeter.c.
 style "bottom"
 {
-	font_name="Sans 12"
+	font_name="Ubuntu 12"
 	fg[NORMAL] = "#ffffff"
 	engine "pixmap"
 	{
@@ -43,7 +27,6 @@ style "bottom"
 	}
 }
 
-widget "lxdm" style "back"
 widget "lxdm.*.time" style "time"
 widget "lxdm.*.prompt" style "prompt"
 widget "lxdm.*.bottom_pane" style "bottom"
