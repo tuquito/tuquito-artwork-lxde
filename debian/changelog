@@ -1,3 +1,10 @@
+tuquito-artwork-lxde (4.1-7) maverick; urgency=low
+
+  * fixed color theme
+  * new login logo
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 30 Nov 2010 22:40:26 -0300
+
 tuquito-artwork-lxde (4.1-6) maverick; urgency=low
 
   * new login screen

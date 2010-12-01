@@ -11,12 +11,12 @@ style "theme-panel"
 	bg[SELECTED]	= shade (0.85, @selected_bg_color) # Makes selected items dark.
 	bg[NORMAL]	= "#3c3c3c" # Makes panel background dark.
 	bg[PRELIGHT]	= shade (0.85, @selected_bg_color) # Makes panel button prelight dark.
-	bg[ACTIVE]	= shade (0.60, @bg_color) # Makes active buttons dark.
+	bg[ACTIVE]	= "#000000" # Makes active buttons dark.
 	bg[INSENSITIVE]	= "#3C3C3C"
-	fg[NORMAL]	= "#E6E6E6" # Makes panel text light.
-	fg[PRELIGHT]	= @selected_fg_color  # Makes prelighted text colored.
-	fg[SELECTED]	= @selected_fg_color  # Makes prelighted text colored.
-	fg[ACTIVE]	= @selected_fg_color  # Makes active text colored.
+	fg[NORMAL]	= "#FFFFFF" # Makes panel text light.
+	fg[PRELIGHT]	= shade (0.10, @bg_color)  # Makes prelighted text colored.
+	fg[SELECTED]	= shade (0.10, @bg_color)  # Makes prelighted text colored.
+	fg[ACTIVE]	= shade (0.10, @bg_color)  # Makes active text colored.
 	fg[INSENSITIVE]	= "#666666" # Color for insensitive text.
 	text[NORMAL]	= "#E6E6E6"
 	text[PRELIGHT]	= @selected_fg_color  # Makes prelighted text colored.
@@ -48,7 +48,7 @@ widget_class "*PanelToplevel*"	style "theme-panel"
 #class "*Panel*"		style "theme-panel" # Disabled to fix bug.
 widget_class "*notif*"		style "theme-panel"
 widget_class "*Notif*"		style "theme-panel"
-widget_class "*Tray*"		style "theme-panel" 
+widget_class "*Tray*"		style "theme-panel"
 widget_class "*tray*"		style "theme-panel"
 widget_class "*computertemp*"	style "theme-panel"
 widget_class "*Applet*Tomboy*"	style "theme-panel"

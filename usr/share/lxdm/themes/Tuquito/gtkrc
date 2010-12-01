@@ -6,7 +6,7 @@ style "time"
 
 style "prompt"
 {
-	fg[NORMAL]="#ffffff"
+	fg[NORMAL]="#4B4B4B"
 	font_name="Ubuntu Bold 15"
 }
 
